@@ -5,7 +5,7 @@ import { AuroraText } from "../magicui/aurora-text";
 const Header = () => {
 	return (
 		<header
-			className="border-b shadow"
+			className="bg-background/10 border-b border-white/20 backdrop-blur"
 			aria-label="app-header">
 			<div className="container mx-auto flex items-center justify-between px-6 py-3">
 				<Link href={"/"}>
